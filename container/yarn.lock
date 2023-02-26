@@ -218,6 +218,11 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@lucascprazeres/hero@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@lucascprazeres/hero/-/hero-0.0.2.tgz#03d902a119feb1669b3646184343c9eb5e5d35f7"
+  integrity sha512-2C1eVw1kWfO2Yn3MIUGy2CX4wYcscc9deymSaYrnPSJ6ggWnOnI5Vzz91dgfri3NIHC2PF9CIlm2HxDXGMbu0A==
+
 "@lucascprazeres/products@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@lucascprazeres/products/-/products-0.0.4.tgz#e06cb25d5553b0904e79874f5b5359a062c9ece4"

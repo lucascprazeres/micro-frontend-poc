@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lucascprazeres/hero": "^0.0.2",
     "@lucascprazeres/products": "^0.0.4",
     "@types/node": "18.14.1",
     "@types/react": "18.0.28",
