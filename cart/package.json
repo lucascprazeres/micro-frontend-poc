@@ -1,12 +1,12 @@
 {
-  "name": "@lucascprazeres/hero",
-  "version": "0.0.3",
+  "name": "@lucascprazeres/cart",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/hero.umd.js",
-  "module": "./dist/hero.es.js",
+  "main": "./dist/cart.umd.js",
+  "module": "./dist/cart.es.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -29,8 +29,11 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/hero.es.js",
-      "require": "./dist/hero.umd.js"
+      "import": "./dist/cart.es.js",
+      "require": "./dist/cart.umd.js"
     }
+  },
+  "dependencies": {
+    "immer": "^9.0.19"
   }
 }
