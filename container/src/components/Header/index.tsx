@@ -21,7 +21,7 @@ export function Header() {
         </Location>
 
         <Link href="/checkout">
-          <CartIndicator productAmount={cart.products.length} />
+          <CartIndicator productAmount={0} />
         </Link>
       </div>
     </HeaderContainer>

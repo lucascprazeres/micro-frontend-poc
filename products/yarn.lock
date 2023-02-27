@@ -389,6 +389,13 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@lucascprazeres/cart@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@lucascprazeres/cart/-/cart-0.0.2.tgz#e2f9ac2cb3f33e27326bedd1e13fcdb1a3f3de9b"
+  integrity sha512-2RTeR+/KqmOOWoWD+Yhfo1srv58GUs6Iq7PKjdXAEfDuk/e5xau5eVjJL0yZtsO3AMhB2aoDOWISlMmgfcol8g==
+  dependencies:
+    immer "^9.0.19"
+
 "@rollup/plugin-typescript@^11.0.0":
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-11.0.0.tgz#f136272d1df5209daca0cb6f171c574b1d505545"
@@ -651,6 +658,11 @@ hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.0:
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
   dependencies:
     react-is "^16.7.0"
+
+immer@^9.0.19:
+  version "9.0.19"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.19.tgz#67fb97310555690b5f9cd8380d38fc0aabb6b38b"
+  integrity sha512-eY+Y0qcsB4TZKwgQzLaE/lqYMlKhv5J9dyd2RhhtGhNo2njPXDqU9XPfcNfa3MIDsdtZt5KlkIsirlo4dHsWdQ==
 
 is-core-module@^2.9.0:
   version "2.11.0"

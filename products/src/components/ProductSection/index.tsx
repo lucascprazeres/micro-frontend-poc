@@ -1,14 +1,8 @@
-import { ProductCard } from "../ProductCard";
+import { ProductCard } from "./ProductCard";
 import { PRODUCTS } from "./constants";
 import { ProductsSectionContainer, ProductList } from "./styles";
 
 export function ProductsSection() {
-  const cart = []
-
-  const handleAddProductToCart = () => { }
-
-  const handleRemoveProductFromCart = () => { }
-
   return (
     <ProductsSectionContainer>
       <h2>Nossos cafés</h2>
@@ -16,11 +10,7 @@ export function ProductsSection() {
       <ProductList>
         {PRODUCTS.map((product) => (
           <li key={product.id}>
-            <ProductCard
-              product={product}
-              onAddProductToCard={handleAddProductToCart}
-              onRemoveProductFromCart={handleRemoveProductFromCart}
-            />
+            <ProductCard product={product} />
           </li>
         ))}
       </ProductList>

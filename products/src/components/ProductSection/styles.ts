@@ -4,7 +4,7 @@ import { breakpoints } from "../../styles/breakpoints"
 export const ProductsSectionContainer = styled.section`
   height: auto;
 
-  max-width: 70rem;
+  max-width: 76rem;
   margin: 0 auto;
 
   padding-bottom: 5rem;
