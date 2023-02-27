@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lucascprazeres/cart": "^0.0.2",
     "@lucascprazeres/hero": "^0.0.2",
     "@lucascprazeres/products": "^0.0.4",
     "@types/node": "18.14.1",

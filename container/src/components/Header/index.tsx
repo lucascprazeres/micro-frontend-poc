@@ -2,10 +2,11 @@ import Link from 'next/link'
 import { HeaderContainer, Location } from './styles'
 
 import { MapPin } from 'phosphor-react'
-// import { useCart } from '../../hooks/useCart'
+//@ts-ignore
+import { useCart, CartIndicator } from '@lucascprazeres/cart'
 
 export function Header() {
-  // const { cart } = useCart()
+  const { cart } = useCart()
 
   return (
     <HeaderContainer>
@@ -19,12 +20,9 @@ export function Header() {
           Belém, PA
         </Location>
 
-        {/* <Link to="/checkout">
-          <If condition={cart.products.length}>
-            <span>{cart.products.length}</span>
-          </If>
-          <ShoppingCart color="#C47F17" size={20} weight="fill" />
-        </Link> */}
+        <Link href="/checkout">
+          <CartIndicator productAmount={cart.products.length} />
+        </Link>
       </div>
     </HeaderContainer>
   )
